@@ -1,54 +1,89 @@
-# React + TypeScript + Vite
+# 🧠 AI Monk Interview Prep
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-TypeScript-blue)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Style-TailwindCSS-38B2AC)](https://tailwindcss.com/)
+[![Firebase](https://img.shields.io/badge/Backend-Firebase-FFCA28)](https://firebase.google.com/)
+[![Clerk](https://img.shields.io/badge/Auth-Clerk-5436DA)](https://clerk.dev/)
 
-Currently, two official plugins are available:
+Ace your dream interviews with the power of AI!  
+**AI Monk Interview Prep** is a modern, full-stack AI mock interview platform that enables users to practice interviews in real-time, receive personalized feedback, and build confidence — powered by **Google Gemini AI**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🚀 [Coming Soon 🚧 – Deploy via Vercel or Render]
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📚 Table of Contents
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- [✨ Features](#-features)
+- [🚀 Tech Stack](#-tech-stack)
+- [💡 What You'll Learn](#-what-youll-learn)
+- [📦 Getting Started](#-getting-started)
+- [🧪 Project Structure](#-project-structure)
+- [📸 Screenshots](#-screenshots)
+- [🛡️ License](#️-license)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## ✨ Features
+
+✅ **Secure Login & Registration** – Powered by [Clerk](https://clerk.dev)  
+✅ **Create Custom Interviews** – Choose your field and configure interview settings  
+✅ **AI-Driven Questions** – Realistic interview questions from **Google Gemini AI**  
+✅ **Voice Analysis** – Receive **Text-to-Speech feedback** to improve responses  
+✅ **User Progress Tracking** – Persistent data management with Firebase  
+✅ **Sleek & Responsive UI** – Built with Shadcn UI + TailwindCSS
+
+---
+
+## 🚀 Tech Stack
+
+| Frontend | Backend | Authentication | AI Integration | Styling | DB |
+|----------|---------|----------------|----------------|---------|----|
+| React + TypeScript | Firebase | Clerk | Google Gemini AI | Shadcn UI + TailwindCSS | Firestore |
+
+---
+
+## 💡 What I Have Learn
+
+🔍 How to integrate **AI APIs** like Gemini into React apps  
+🛠️ Setup **Firebase** for real-time data handling  
+🔐 Secure your app using **Clerk Authentication**  
+🎨 Build beautiful & accessible UIs using **Shadcn UI**  
+🚀 Deploy a fully functional mock interview platform
+
+---
+
+## 🖼️ Screenshots
+Coming soon... (Add images or GIFs of the platform here)
+
+---
+
+
+## License
+This project is licensed under the MIT License.
+
+## 💬 Let’s Connect
+🚀 Built with passion by @sandipmalii
+⭐ Star the repo if it helped you — and share it with your friends preparing for interviews!
+---
+
+Happy building, Sandip 🚀
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/sandipmalii/AI-Monk-InterviewPrep.git
+cd AI-Monk-InterviewPrep
+
+ --Install Dependencies--
+pnpm install
+
+--Run the App--
+pnpm run dev
