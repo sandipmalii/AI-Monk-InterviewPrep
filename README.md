@@ -67,12 +67,19 @@ Coming soon... (Add images or GIFs of the platform here)
 This project is licensed under the MIT License.
 
 ## 💬 Let’s Connect
-🚀 Built with passion by @sandipmalii
-⭐ Star the repo if it helped you — and share it with your friends preparing for interviews!
+
+💻 Built with passion by **[@sandipmalii](https://github.com/sandipmalii)**  
+🌟 If you found this project helpful:  
+⭐ Star the repo  
+🔗 Share it with your friends  
+💬 Drop a suggestion or feedback anytime!
+
 ---
 
-Happy building, Sandip 🚀
+Made with ❤️ | Happy building, Sandip 🚀
+
 ---
+
 
 ## 📦 Getting Started
 
