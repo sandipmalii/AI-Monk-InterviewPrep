@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDEs
+.idea/
+*.iml
+
+# Tailwind
+.tailwind/
+
+# Coverage reports
+coverage/
+
+# Parcel cache
+.cache/
+
+# SvelteKit/Vite
+.svelte-kit/
+.next/
