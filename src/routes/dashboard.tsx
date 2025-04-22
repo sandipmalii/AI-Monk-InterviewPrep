@@ -1,4 +1,4 @@
-import { Headings } from "@/components/headings";
+import { Headings } from "@/components/heading";
 import { InterviewPin } from "@/components/pin";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";

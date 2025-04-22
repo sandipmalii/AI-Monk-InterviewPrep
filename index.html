@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; 
+               connect-src 'self' https://clerk-telemetry.com https://thorough-lamb-59.clerk.accounts.dev https://firestore.googleapis.com; 
+               script-src 'self' https://clerk.com https://cdn.jsdelivr.net https://thorough-lamb-59.clerk.accounts.dev; 
+               style-src 'self' 'unsafe-inline'; 
+               img-src 'self' https://img.clerk.com;
+               worker-src 'self' blob:;">
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
